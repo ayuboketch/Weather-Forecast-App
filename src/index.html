@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <link rel="stylesheet" href="styles.css" />
+        <title>Weather App</title>
+    </head>
+    <body>
+        <div class="app">
+            <div class="search">
+                <header>
+                    <h1>Weather App</h1>
+                </header>
+                <form id="location-form">
+                    <input
+                        id="location-input"
+                        type="text"
+                        placeholder="Enter city name"
+                        autofocus
+                    />
+                    <button id="getWeather" class="getWeather">
+                        Get Weather
+                    </button>
+                </form>
+            </div>
+            <div class="weather">
+                <h2 class="city">Weather in Dhaka</h2>
+                <h1 class="temp">51°C</h1>
+                <div class="flex">
+                    <img
+                        src="https://openweathermap.org/img/wn/04n.png"
+                        alt="Cloudy"
+                        class="icon"
+                    />
+                    <div class="description">Cloudy</div>
+                </div>
+                <div class="details">
+                    <div class="humidity">Humidity: 50%</div>
+                    <div class="wind">Wind speed: 6.2 km/h</div>
+                </div>
+            </div>
+        </div>
+        <div class="app2" id="app2">
+            <div class="search">
+                <header>
+                    <h1>Weather App</h1>
+                </header>
+                <form id="location-form">
+                    <input
+                        id="location-input"
+                        type="text"
+                        placeholder="Enter city name"
+                        autofocus
+                    />
+                    <button class="getWeather">Get Weather</button>
+                </form>
+            </div>
+            <div class="weather">
+                <h2 class="city">Weather in Dhaka</h2>
+                <h1 class="temp">51°C</h1>
+                <div class="flex">
+                    <img
+                        src="https://openweathermap.org/img/wn/04n.png"
+                        alt="Cloudy"
+                        class="icon"
+                    />
+                    <div class="description">Cloudy</div>
+                </div>
+                <div class="details">
+                    <div class="humidity">Humidity: 50%</div>
+                    <div class="wind">Wind speed: 6.2 km/h</div>
+                </div>
+            </div>
+        </div>
+        <button class="plus1" id="plus1">
+            <div class="plus2">
+                <h1>Add a City</h1>
+                <svg
+                    class="plusSign"
+                    id="plusSign"
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="24px"
+                    viewBox="0 -960 960 960"
+                    width="24px"
+                    fill="#e8eaed"
+                >
+                    <path
+                        d="M440-440H200v-80h240v-240h80v240h240v80H520v240h-80v-240Z"
+                    />
+                </svg>
+            </div>
+        </button>
+    </body>
+    <script src="./app.js"></script>
+</html>
