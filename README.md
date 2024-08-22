@@ -1,6 +1,6 @@
 <img width="1680" alt="Screenshot 2024-08-22 at 19 12 34" src="https://github.com/user-attachments/assets/a1f81319-bcac-483a-876c-37f67099c666">
 
-#Weather App 🌦️
+# Weather App 🌦️
 
 This is a simple and interactive Weather App that allows users to search for the current weather conditions of any city in the world. The app provides information such as temperature, humidity, wind speed, and weather conditions using data fetched from the Visual Crossing Weather API.
 Features
